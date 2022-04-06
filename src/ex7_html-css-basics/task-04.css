@@ -1,0 +1,14 @@
+h2 {
+  color: rgb(110, 8, 21);
+  font-family: Arial, 'Times New Romam', Verdana;
+  font-size: 3em;
+}
+
+.list {
+  padding: 0px;
+  margin-left: 0px;
+}
+
+.txt {
+  width: 40%;
+}

@@ -1,0 +1,17 @@
+.greenColor {
+    background-color: green;
+}
+
+.list {
+    padding: 0px;
+    margin-left: 0px;
+}
+
+.txt {
+    width: 40%;
+}
+
+.image {
+    width: 255px;
+    height: 155px;
+}

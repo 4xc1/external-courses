@@ -1,0 +1,11 @@
+.first {
+  border: 3px double red;
+}
+
+.second {
+  outline: 3px solid rgb(110, 214, 205);
+}
+
+.third {
+  box-shadow: 0px 0px 10px 20px tan;
+}

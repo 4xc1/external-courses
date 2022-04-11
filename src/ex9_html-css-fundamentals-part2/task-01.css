@@ -1,0 +1,26 @@
+.round, .round div {
+  border-radius: 50%;
+}
+
+.house, .house div {
+  margin-left: 2%;
+  transform-origin: 50% 50%;
+  overflow: hidden;
+  width: 300px;
+  height: 300px;
+}
+
+.house {
+  transform: rotate(45deg) translateY(10px);
+}
+
+.house .house1 {
+  width: 350px;
+  height: 350px;
+  transform: rotate(-45deg) translateY(-74px);
+}
+
+.house .house1 img {
+  width: 100%;
+  height: auto;
+}

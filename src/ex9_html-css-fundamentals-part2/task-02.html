@@ -1,0 +1,95 @@
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="task-02.css" />
+  </head>
+  <body>
+    <form action="http://httpbin.org/get">
+      <fieldset>
+        <legend>Personal data</legend>
+        <label for="surname">Surname</label>
+        <input type="text" name="surname" id="surname" />
+        <br />
+        <label for="firstname">First Name</label>
+        <input type="text" name="firstame" id="firstame" />
+        <br />
+        <label for="middlename">Middle name</label>
+        <input type="text" name="midllename" id="midllename" />
+        <br />
+        <label for="sex">You are</label>
+        <input type="radio" name="sex" value="male" id="sex" />male
+        <input type="radio" name="sex" value="female" id="sex" />female
+        <br />
+        <label for="age">Age</label>
+        <input type="number" name="age" id="age" min="18" max="101" />
+        <br />
+        <label for="country">Country of Residence</label>
+        <select name="country" id="country">
+          <option value="taj" selected>Таджикистан</option>
+          <option value="gon">Гондурас</option>
+          <option value="rus">Россия</option>
+        </select>
+        <br />
+        <label for="city">City</label>
+        <input type="checkbox" name="city" value="moscow" id="city" />Moscow
+        <input type="checkbox" name="city" value="ryazan" id="city" />Ryazan
+        <br />
+        <label for="foto">Photography</label>
+        <input type="file" name="foto" id="foto" />
+        <hr />
+        <label for="title">Title</label>
+        <select name="title" id="title" multiple size="8">
+          <optgroup label="Technologies">
+            <option value="wm">Web Master</option>
+            <option value="dtb">Database Administrator</option>
+            <option value="cad">Computer-aided design</option>
+          </optgroup>
+          <optgroup label="Finance">
+            <option value="ep">Economic Planning</option>
+            <option value="ma">Management accouting</option>
+            <option value="bap">Budgeting and planning</option>
+          </optgroup>
+        </select>
+        <br />
+        <label for="range">Salary</label>
+        <input type="range" name="Salary" id="" />
+        <br />
+        <textarea name="" id="" cols="30" rows="10">
+  Tell us about yourself...</textarea
+        >
+      </fieldset>
+      <fieldset>
+        <legend>Contact Information</legend>
+        <label for="site">Site</label>
+        <input type="text" name="site" id="site" />
+        <br />
+        <label for="email">Email</label>
+        <input type="email" name="email" id="email" />
+        <br />
+        <label for="phone">Phone</label>
+        <input type="tel" name="phone" id="phone" />
+      </fieldset>
+      <label for="pass">Password</label>
+      <input type="password" name="pass" id="pass" />
+      <br />
+      <button
+        formaction="http://httpbin.org/get"
+        formmethod="get"
+        formenctype="multipart/form-data"
+      >
+        Отправить
+      </button>
+      <button
+        formaction="http://httpbin.org/post"
+        formmethod="post"
+        formenctype="multipart/form-data"
+      >
+        Отправить
+      </button>
+      <button type="reset" name="reset" value="Сбросить">Сбросить</button>
+    </form>
+  </body>
+</html>

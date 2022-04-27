@@ -1,0 +1,73 @@
+header {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 1320px;
+  height: 45px;
+  border-radius: 5px;
+  background-color: #2f364a;
+}
+
+ul, .help-center, .active-user {
+  display: flex;
+  flex-flow: row nowrap;
+}
+
+.help-center, .active-user {
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+}
+
+ul {
+  position: absolute;
+  right: 0;
+  margin: auto;
+  padding: 0;
+  list-style: none;
+}
+
+.help-center {
+  width: 198px;
+  height: 32px;
+  font-size: 13px;
+  line-height: 26px;
+  color: #78829d;
+  font-family: "Proxima Nova";
+}
+
+.dot {
+  width: 4px;
+  height: 4px;
+  border-radius: 2px;
+  background-color: rgba(25, 32, 46, 0.7490196078431373);
+  margin: 7px;
+}
+
+.active-user {
+  width: 191px;
+  height: 45px;
+  background-color: #15a4fa;
+  border-radius: 0 5px 5px 0;
+}
+
+.avatar-wrap {
+  width: 32px;
+  height: 32px;
+  border-radius: 16px;
+  background-color: #6eb5eb;
+  border: 2px solid #eef1f7;
+  margin: 7px;
+}
+
+.name {
+  text-align: center;
+  font-size: 13px;
+  color: #ffffff;
+  font-family: "Proxima Nova";
+  margin: 16.5px;
+}
+
+.confirm-user {
+  margin-right: 20px;
+}
